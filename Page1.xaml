@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task3.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+        <StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#6600ff" HeightRequest="150" Grid.Row="0" Grid.Column="0">
+                    <Button  ImageSource="dotsmenu" HorizontalOptions="Start"  BackgroundColor="Transparent">
+
+                    </Button>
+                    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                        <Label Grid.Row="0" Grid.Column="1" Text="Yogita Shaje" FontAttributes="Bold" TextColor="White" FontSize="Large" VerticalOptions="Center" />
+                        <Label Text="Class VII B"  TextColor="White" FontSize="Medium"   />
+                        
+                    </StackLayout>
+                    <StackLayout>
+                        <Image HorizontalOptions="End" Source="profile" BackgroundColor="white" Margin="50,30,10,10"/>
+                    </StackLayout>
+                    
+                </StackLayout>
+
+                <Label Text="Notice Board" TextColor="#6600ff" HeightRequest="30" FontAttributes="Bold" FontSize="Large" />
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal" HeightRequest="400">
+
+                    <Frame BorderColor="White" HeightRequest="150" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="True">
+                        <StackLayout>
+                            <Button ImageSource="image" BackgroundColor="Transparent"></Button>
+                        <Label Text="School is going for vacation in next month" TextColor="Black"></Label>
+                        <Label Text="02 March 2020"></Label>
+                        </StackLayout>
+                    </Frame>
+                <Frame BorderColor="White" HeightRequest="150" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="True">
+                        <StackLayout>
+                            <Button ImageSource="image"></Button>
+                            <Label Text="Summer Book Fair at School Campus in June" TextColor="Black"></Label>
+                            <Label Text="02 March 2020"></Label>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BorderColor="White" HeightRequest="150" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="True">
+                        <StackLayout>
+                            <Button ImageSource="image"></Button>
+                            <Label Text="School is going for vacation in next month" TextColor="Black"></Label>
+                            <Label Text="02 March 2020"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+                <Label Text="Homework" TextColor="#6600ff" HeightRequest="50" FontAttributes="Bold" FontSize="Large"/>
+                <ScrollView Orientation="Vertical">
+                    <StackLayout>
+                        <Frame BorderColor="White" HeightRequest="50" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="False" BackgroundColor="#ffe5cc">
+                            <StackLayout Orientation="Horizontal">
+                                <RadioButton IsChecked="False" HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Learn Chapter 5 with one Essay" TextColor="Black"></Label>
+                                    <Label Text="English / Today" TextColor="Gray"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="50" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="False" BackgroundColor="#ffe5cc">
+                            <StackLayout Orientation="Horizontal">
+                                <RadioButton IsChecked="False" HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Excercise Trigonometry 1st topicy" TextColor="Black"></Label>
+                                    <Label Text="Maths / Today" TextColor="Gray"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="50" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="False" BackgroundColor="#ffe5cc">
+                            <StackLayout Orientation="Horizontal">
+                                <RadioButton IsChecked="False" HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Hindi writing 3 pages" TextColor="Black"></Label>
+                                    <Label Text="Hindi / Today" TextColor="Gray"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="50" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="False" BackgroundColor="#ffe5cc">
+                            <StackLayout Orientation="Horizontal">
+                                <RadioButton IsChecked="False" HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Test for History first session" TextColor="Black"></Label>
+                                    <Label Text="Social Science / Today" TextColor="Gray"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BorderColor="White" HeightRequest="50" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="False" BackgroundColor="#ffe5cc">
+                            <StackLayout Orientation="Horizontal">
+                                <RadioButton IsChecked="False" HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Learn Atoms Physics" TextColor="Black"></Label>
+                                    <Label Text="Science / 16 March 2020" TextColor="Gray"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame BorderColor="White" HeightRequest="50" WidthRequest="100" Margin="10" CornerRadius="15" HasShadow="False" BackgroundColor="#ffe5cc">
+                            <StackLayout Orientation="Horizontal">
+                                <RadioButton IsChecked="False" HeightRequest="50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="English writing 3 pages" TextColor="Black"></Label>
+                                    <Label Text="English / 16 March 2020" TextColor="Gray"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                    
+                </ScrollView>
+                
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
